@@ -1,0 +1,88 @@
+body{
+    background-image: url("main-bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: purple;
+
+}
+.menu{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu > button{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+.menu > button:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+}
+
+.questions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.answers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.answers > button{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin: 15px;   
+}
+.answers > button:hover{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+}
+.correct{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(31, 231, 0);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.incorrect{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(182, 20, 20);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.points{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.hide{
+    display: none;
+}

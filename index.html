@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Kapoot</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="menu" id="menu">
+            <button onclick="startGame()">Start Game!</button>
+        </div>
+        <div class="questions hide" id="questions">
+            <div class="timers">
+                <div class="totaltimer"></div>
+                <div class="qntimer"></div>
+            </div>
+            <h1 class="question"></h1>
+            <div class="answers">
+                <button class="a0"></button>
+                <button class="a1"></button>
+                <button class="a2"></button>
+                <button class="a3"></button>
+            </div>
+        </div>
+        <div class="points"></div>
+        <div class="correct hide" id="correct"><h1>Correct!!</h1></div>
+        <div class="incorrect hide" id="incorrect"><h1>Incorrect!!</h1></div>
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
