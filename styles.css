@@ -39,7 +39,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.answers > button{
+.answers > button,.restart{
     color: white;
     background-color: black;
     padding: 15px 30px;
