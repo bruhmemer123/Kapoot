@@ -49,7 +49,7 @@ body{
     border-radius: 15px;
     margin: 15px;   
 }
-.answers > button:hover{
+.answers > button:hover,.restart:hover{
     color:black;
     background-color:white;
     cursor: pointer;
